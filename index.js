@@ -21,7 +21,7 @@ const config = {
 };
 
 // 執行的 modules（依序）
-const modules = ["login", "ad_handler", "sign", "guild", "answer", "sayloud", "builder", "logout", "report", "telegram", "discord"];
+const modules = ["login", "ad_handler", "sign", "guild", "answer", "lottery", "sayloud", "builder", "logout", "report", "telegram", "discord"];
 
 // 非機密參數
 const parameters = {
@@ -39,6 +39,7 @@ const secrets = {
     twofa: twofa,
     gh_pat: gh_pat,
     tg_id: tg_id,
+    dc_url: dc_url,
 };
 
 main({
