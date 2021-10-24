@@ -21,7 +21,7 @@ const config = {
 };
 
 // 執行的 modules（依序）
-const modules = ["login", "ad_handler", "sign", "guild", "answer", "lottery", "sayloud", "builder", "logout", "report", "telegram"];
+const modules = ["login", "ad_handler", "sign", "guild", "answer", "lottery", "sayloud", "builder", "logout", "report", "telegram", "discord"];
 
 // 非機密參數
 const parameters = {
