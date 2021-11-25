@@ -11,8 +11,8 @@ jobs:
     runs-on: macos-latest
     steps:
       - name: Bahamut Automation
-        uses: JacobLinCool/Bahamut-Automation@action
+        uses: JacobLinCool/Bahamut-Automation@0.6.12
         with:
-          modules: "login,ad_handler,report,guild,report,answer,report,lottery,report,logout,report,telegram,discord"
+          modules: "login,ad_handler,sign,report,guild,report,answer,report,lottery,report,logout,report,telegram,discord"
           parameters: ${{ secrets.parameters || '{}' }}
           secrets: ${{ secrets.secrets }}
